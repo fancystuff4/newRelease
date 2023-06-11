@@ -20,11 +20,6 @@
   "engines": {
     "node": "^16.14 || >=18"
   },
-  "files": [
-    "index.js",
-    "lib",
-    "services"
-  ],
   "keywords": [
     "appveyor",
     "azure-pipelines",
