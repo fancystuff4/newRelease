@@ -20,6 +20,7 @@ import envCi from "env-ci";
 
 const {
   name,
+  jbub,
   service,
   isCi,
   branch,
