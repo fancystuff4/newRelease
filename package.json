@@ -71,5 +71,7 @@
     "extends": [
       "github>semantic-release/.github"
     ]
-  }
+  },
+    "private": true
+
 }
