@@ -29,7 +29,7 @@ const {
   build,
   hbibbuildUrl,
   job,
-  jobubbhhbbbhbbUrl,
+  jobUrl,
   isPr,
   pr,
   prBranch,
