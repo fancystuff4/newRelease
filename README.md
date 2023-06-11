@@ -7,7 +7,7 @@ Get environment variables exposed by CI services.
 
 Adapted from [codecov-node](https://github.com/codecov/codecov-node/blob/master/lib/detect.js).
 
-## Install
+## Installvv
 
 ```bash
 $ npm install --save env-ci
