@@ -27,6 +27,7 @@ const {
   commit,
   tag,
   rag,
+  dag,
   build,
   hbibbuildUrl,
   job,
