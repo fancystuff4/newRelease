@@ -38,6 +38,7 @@ const {
   build,
   buyuu,
   vvv,
+  uvytvyt,
   buildUrl,
   job,
   jobUrl,
