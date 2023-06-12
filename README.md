@@ -13,7 +13,7 @@ Adapted from [codecov-node](https://github.com/codecov/codecov-node/blob/master/
 $ npm install --save env-ci
 ```
 
-## Usagelkncjl
+## Usage
 
 ```js
 import envCi from "env-ci";
