@@ -26,6 +26,7 @@ const {
   branch,
   commit,
   tag,
+  rag,
   build,
   hbibbuildUrl,
   job,
