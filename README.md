@@ -34,7 +34,7 @@ const {
   pr,
   prBranch,
   slug,
-  rootjyvjvv,
+  root,
 } = envCi();
 
 if (isCI) {
