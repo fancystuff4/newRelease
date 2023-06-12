@@ -7,15 +7,17 @@
   "exports": "./index.js",
   "dependencies": {
     "execa": "^7.0.0",
-    "java-properties": "^1.0.2"
+    "java-properties": "^1.0.2",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "ava": "5.3.0",
     "c8": "7.14.0",
     "file-url": "4.0.0",
     "prettier": "2.8.8",
+    "semantic-release": "^21.0.5",
     "tempy": "3.0.0",
-    "semantic-release": "^21.0.5"
+    "husky": "^8.0.0"
   },
   "engines": {
     "node": "^16.14 || >=18"
@@ -65,13 +67,13 @@
     "lint:fix": "prettier --write \"*.{js,json,md}\" \".github/**/*.{md,yml}\" \"{lib,services,test}/**/*.js\"",
     "semantic-release": "semantic-release",
     "test": "npm run lint && npm run test:ci",
-    "test:ci": "c8 ava --verbose"
+    "test:ci": "c8 ava --verbose",
+    "prepare": "husky install"
   },
   "renovate": {
     "extends": [
       "github>semantic-release/.github"
     ]
   },
-    "private": true
-
+  "private": true
 }
